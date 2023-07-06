@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/estilos4.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="cocteles.html">Cocteles</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="blog.html">Blog</a>     
+        </nav>
+        <section class="textos-header">
+            <img src="/imagenes/barG.gif" alt="HTML5 Logo" style="width:200;height:160px"/>
+            <h2>Contacto</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.99 C82.96,132.74 335.78,5.45 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#eee;"></path></svg></div>
+    </header>
+    <form action="https://formspree.io/f/xqknrkpa"
+    method="POST" target="_blank" >
+       
+          <label for="nombre">Nombre:</label><br />
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required
+          /><br />
+          <label for="apellido">Apellido:</label><br />
+          <input
+          class="contact"
+            type="text"
+            id="apellido"
+            name="apellido"
+            placeholder="Escribe tu apellido"
+            required
+          /><br />
+          <label for="email" class="coment">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+         
+          <br />
+          <label for="comentario">Comentario</label><br />
+          <textarea name="comentario" id="comentario" cols="40" rows="4" name="message">
+          </textarea>
+          <br />
+  
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Restablecer" />
+        </fieldset>
+      </form>
+      <footer id="contacto" >
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>966912947</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>elbarastral@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Localizacion</h4>
+                <p>Santiago centro</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/elbarastral/" target="_blank">
+                    <img src="/imagenes/instagram.jpg" alt="instagram" style="width:50px"> 
+                </a>
+                </div>
+                <div class="content-foo">
+                    <a href="index.html">
+                        <img src="/imagenes/barastral copia.jpg" alt="bar astral Logo" style="width:50px">
+                    </a>
+                    </div>
+        </div>
+        <h5 class="titulo-final">&copy;JAVWeb Design |  +56 944912957</h2>
+    </footer>
+</body>
+</html>
